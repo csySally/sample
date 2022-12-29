@@ -1,0 +1,241 @@
+.layout{
+    width: 1141px;
+    margin: 0 auto;
+}
+/* 头部 */ 
+.header{
+    height: 101px;
+    /* background-color: pink; */
+}
+.header>img{
+    float: left;
+    margin-top: 23px;
+}
+.header>div{
+    float: left;
+    margin-top: 28px;
+    line-height: 24px;
+    border-left: 1px solid #999;
+    margin-left: 38px;
+    padding-left: 22px;
+}
+.header span{
+    display: block;
+    font-size: 12px;
+    color: #9a9a9a;
+    font-style: italic;
+}
+.header>ul a{
+    color: #000;
+    font-size: 12px;
+}
+.header>ul{
+    float: right;
+    margin-top: 28px;
+}
+.header>ul>li{
+    float: left;
+    line-height: 72px;
+    padding: 0 16px;
+  
+}
+.header>ul>li:hover{
+    background-color: #f75a53;
+
+}
+/* 划过li 操作里边的a */
+.header>ul>li:hover>a{
+    color: #fff;
+}
+
+/* 战略合作 */
+.cooperation{
+    height: 385px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.cooperationbox{
+    background-color: #f7f7f7;
+}
+.cooperation>h3,.advantages>h3,.success>h3{
+    font-size: 24px;
+    line-height: 80px;
+}
+.cooperation>p,.advantages>p,.success>p{
+    font-size: 14px;
+    color: #9a9997;
+}
+.cooperation>.list{
+    margin-top: 24px;
+    border-left: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.cooperation>.list li{
+    width: 190px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 0;
+    background-color: #fff;
+    float: left;
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    /* 让图片的父元素加text-align:center 让图片水平居中 */
+    text-align: center;
+    box-sizing: border-box;
+}
+.cooperation>.list img{
+    vertical-align: middle;
+}
+
+/* 我们的优势 */
+.advantages{
+    color: #fff;
+    height: 540px;
+    text-align: center;
+    overflow: hidden;
+}
+.advantages h3{
+    margin-top: 29px;
+}
+.advantagesbox{
+    background-color: #1a1b1f;
+}
+.advantages li{
+    width: 340px;
+    height: 260px;
+    background-color: #d1d1d1;
+    float: left;
+    
+}
+.advantages>ul{
+    margin-top: 106px;
+}
+.advantages li img{
+    margin-top: -68px;
+}
+.advantages h4{
+    color: #f55a55;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.advantages ul p{
+    font-size: 14px;
+    padding: 0 44px;
+    color: #000;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* 成功案例 */
+.success{
+    height: 780px;
+    text-align: center;
+}
+.success h3{
+    margin-top: 20px;}
+.success>ul{
+    width: 800px;
+    margin: 30px auto 24px;
+}
+.success>ul>li{
+    width: 200px;
+    height: 40px;
+    background-color: #666666;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.success>ul>li:hover{
+    background-color: #f75a53;
+}
+.success>ul>li:hover span{
+    display: block;
+}
+.arrow{
+   border-width: 10px;
+   border-style: solid;
+   border-color: #f75a53 transparent transparent transparent; 
+   position: absolute;
+   left: 90px;
+   bottom: -20px;
+   display: none;
+}
+
+.success>ol li{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 29px;
+}
+.btmlist{
+    height: 350px;
+}
+.btmlistbox{
+    background-color: #f2f2f2;
+}
+.btmlist>div{
+    float: left;
+    margin-right: 58px;
+}
+.btmlist>div>h5{
+    font-size: 16px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.btmlist li{
+    width: 340px;
+    line-height: 30px;
+   
+}
+.btmlist li>a{
+    color: #88888a;
+    font-size: 12px;
+}
+.btmlist .left{
+    float: left;
+}
+.btmlist .right{
+    float: right;
+}
+.btmlist>div>a{
+    display: block;
+    width: 118px;
+    height: 28px;
+    background-color: #f75a53;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 17px;
+}
+/* 尾部 */
+.foot{
+    height: 138px;
+    background-color: #383838;
+
+}
+.footbox{
+    overflow: hidden;
+    font-size: 12px;
+    color: #717171;
+    text-align: center;
+}
+.banner{
+    width: 560px;
+    margin: 30px auto 20px;
+}
+.banner li{
+    float: left;
+    border-right: 1px solid #717171;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.foot li a{
+    color: #717171;
+}
+.footbox p{
+    margin-bottom: 20px;
+}
